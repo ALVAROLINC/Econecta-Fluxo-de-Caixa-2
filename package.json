@@ -1,0 +1,15 @@
+{
+  "name": "fluxo-facil",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Fluxo Fácil: fluxo de caixa simples, com conta de usuário (e-mail e senha) e avisos por e-mail.",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.mjs",
+    "avisos": "node --disable-warning=ExperimentalWarning scripts/avisos.mjs"
+  }
+}
